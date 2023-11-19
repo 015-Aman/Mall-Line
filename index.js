@@ -2,7 +2,8 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const port = process.env.PORT || 3000;
-const mongoConnectionString = "mongodb+srv://Aman_Singh:Aman123@cluster0.yvl4tlu.mongodb.net/?retryWrites=true&w=majority"
+const mongoConnectionString = "mongodb://127.0.0.1:27017/malldb"
+// mongodb+srv://Aman_Singh:Aman123@cluster0.yvl4tlu.mongodb.net/?retryWrites=true&w=majority
 const secret = "12345"
 const adminRoutes = require("./routes/admin");
 const Product = require("./models/product");
