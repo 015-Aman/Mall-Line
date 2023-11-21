@@ -7,7 +7,7 @@
     "start": "node index",
     "dev": "nodemon index"
   },
-  "author": "Virender singh",
+  "author": "Aman singh",
   "license": "ISC",
   "dependencies": {
     "connect-flash": "^0.1.1",
